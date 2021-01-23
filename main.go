@@ -34,7 +34,7 @@ var err error
 func main() {
 	// Open the database
 	db, err = gorm.Open(
-		"postgres", "host=localhost port=5432 user=postgres dbname=notesprototype sslmode=disable password=Jack161005")
+		"postgres", "host=localhost port=5432 user=postgres dbname=notesprototype sslmode=disable password=passsword")
 	if err != nil {
 		panic(err)
 	}
